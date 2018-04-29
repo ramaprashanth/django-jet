@@ -12,7 +12,7 @@ making absolutely different themes. This option in fact make Django load differe
 Possible built-in themes are:
 
 * default
-* green
+* grey
 * light-violet
 * light-green
 * light-blue
@@ -37,13 +37,13 @@ You can allow your users to change admin panel color scheme. This option will ad
     JET_THEMES = [
         {
             'theme': 'default', # theme folder name
-            'color': '#47bac1', # color of the theme's button in user menu
+            'color': '#ed6d00', # color of the theme's button in user menu
             'title': 'Default' # theme title
         },
         {
-            'theme': 'green',
-            'color': '#44b78b',
-            'title': 'Green'
+            'theme': 'grey',
+            'color': '#47bac1',
+            'title': 'Grey'
         },
         {
             'theme': 'light-green',
@@ -235,4 +235,3 @@ Same as **JET_INDEX_DASHBOARD**, but for application pages
 .. code:: python
 
     JET_APP_INDEX_DASHBOARD = 'jet.dashboard.dashboard.DefaultAppIndexDashboard'
-
